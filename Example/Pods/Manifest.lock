@@ -1,16 +1,22 @@
 PODS:
-  - CubeTabBar (0.1.0)
+  - CubeTabBar (0.1.0):
+    - CubeTheme
+  - CubeTheme (0.1.0)
 
 DEPENDENCIES:
   - CubeTabBar (from `../`)
+  - CubeTheme (from `/Users/gg19910817/Cube/CubeTheme`)
 
 EXTERNAL SOURCES:
   CubeTabBar:
     :path: "../"
+  CubeTheme:
+    :path: "/Users/gg19910817/Cube/CubeTheme"
 
 SPEC CHECKSUMS:
-  CubeTabBar: 25ac7fd5b641314d53cfa8504749e894f8dbecd4
+  CubeTabBar: a9add466d929988f6650a6f8c949810006efb8e6
+  CubeTheme: 8948e65c451d514921914f8110d98ffd4b60b645
 
-PODFILE CHECKSUM: 7b319543fb23bd048a22f2e10d72270d06b6268d
+PODFILE CHECKSUM: bd2ea95681a9f47ae520eca9ce35e86330c63af7
 
 COCOAPODS: 1.9.3

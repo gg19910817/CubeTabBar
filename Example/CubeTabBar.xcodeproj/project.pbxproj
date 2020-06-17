@@ -272,10 +272,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CubeTabBar_Example/Pods-CubeTabBar_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CubeTabBar/CubeTabBar.framework",
+				"${BUILT_PRODUCTS_DIR}/CubeTheme/CubeTheme.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CubeTabBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CubeTheme.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

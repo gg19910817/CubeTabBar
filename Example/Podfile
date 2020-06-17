@@ -1,11 +1,11 @@
 use_frameworks!
 
 target 'CubeTabBar_Example' do
+  pod 'CubeTheme', :path =>'/Users/gg19910817/Cube/CubeTheme'
   pod 'CubeTabBar', :path => '../'
 
   target 'CubeTabBar_Tests' do
     inherit! :search_paths
-
     
   end
 end

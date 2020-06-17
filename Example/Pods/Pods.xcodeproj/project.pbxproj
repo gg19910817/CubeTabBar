@@ -7,25 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B09DD29A11F5503A8AE825489047D5C /* CubeTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC151FC1956DD80B1BBE61AA5543C24 /* CubeTabBar-dummy.m */; };
-		588ED0366DC4A684284F03EF0DE795CD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3472EF0CEFE441198F1A8AAFAEB00C2E /* ReplaceMe.swift */; };
-		726D7173DC56905008407C53587F36E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		78A875DB6A22EDB06E351F7C8BC4F5A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9943A93287E4E278472275D8CE717E07 /* CubeTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DF22A0C3E8F47BA9EC4DACF48ACFA7E /* CubeTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08CF2D405429FD9DB5DDE00DDF862DA7 /* CubeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74816ABC25C29DAC1D362D176E026EA6 /* CubeTheme.swift */; };
+		107DD5BFA1A3E91A00ADCAA5CEAAD6FC /* Pods-CubeTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE9E21829D5BD4F586574C50B656FC6 /* Pods-CubeTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CFC836FAF339ECD8CE3118DEA2CFAAD /* CubeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F63772530055EFF32BF7BA9BA48C9B /* CubeTabBarController.swift */; };
+		26B00C8F255ADA156CE0BC8F33068897 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A6ED487AE04F93659CACFCDC25CB79 /* Foundation.framework */; };
+		57488FD70B647071A4E94FBB5DEFD2BF /* Pods-CubeTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACCBB42DC3CE635336AA41BAC72EB2E /* Pods-CubeTabBar_Example-dummy.m */; };
+		623C2530427CCA806EF254BC95BF47CE /* CubeTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C3322D3026F8E14C4B06B8A3247C88 /* CubeTabBar-dummy.m */; };
+		726D7173DC56905008407C53587F36E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A6ED487AE04F93659CACFCDC25CB79 /* Foundation.framework */; };
+		8402DB75249A04E500C619E2 /* CubeTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8402DB74249A04E500C619E2 /* CubeTabBarButton.swift */; };
+		8550C807E929C29C81D72C45A90C0FCB /* CubeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D61EB0C0C3D1A7A847D722FABF600B /* CubeTabBar.swift */; };
+		8D2C72701F72540334E34762CC5BF2B1 /* CubeTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94FD9F0C393232D98BBFA2BE97438A45 /* CubeTheme.framework */; };
+		90D444FFDBEE7907FE9396E3AEB91103 /* CubeThemeSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90839E2DB73F508A0469FE5A9B691A5D /* CubeThemeSize.swift */; };
+		97C28818AB2E53F7433EDAE7DAE0EE85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A6ED487AE04F93659CACFCDC25CB79 /* Foundation.framework */; };
+		9BB15ED07061298422A70913B3E7606E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49A6ED487AE04F93659CACFCDC25CB79 /* Foundation.framework */; };
+		A2E6EFCA4CF1A3EDB8264A21432316FB /* CubeTheme-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFCD296DCFF9ADEFA25B2F8DA92CBAC4 /* CubeTheme-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B70850D2712DA0CDEC39E9A132EA8E1A /* CubeTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2561F6E87E72DDBA23ECDE86CFF030 /* CubeTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDEE63CFD19D94BB44351F08DFC6B411 /* CubeTheme-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CED8A794D4370B0334FD117DFCBB826E /* CubeTheme-dummy.m */; };
 		BF3BDC9E683F9BDC6A634D7404373726 /* Pods-CubeTabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAD674DE9C61020E3CC56CEAB3CA47A6 /* Pods-CubeTabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C208B2AB503F003E365AA19765059932 /* Pods-CubeTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE9E21829D5BD4F586574C50B656FC6 /* Pods-CubeTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC04DC72182BE576FF80F6ADE0FDDD38 /* Pods-CubeTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ACCBB42DC3CE635336AA41BAC72EB2E /* Pods-CubeTabBar_Example-dummy.m */; };
+		CFBDBAE57A0ECB1270C4BB0D4AA3892F /* CubeThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37560EA206F268EB654577E782049502 /* CubeThemeColor.swift */; };
 		F5561688A0E487F4C184D6DF665605B1 /* Pods-CubeTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D93BEBFA09D6646F1154472FDFD5F5B5 /* Pods-CubeTabBar_Tests-dummy.m */; };
-		FE614554FBFF83D0CC02E5D506EABF67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		41CEFEE2385A10C502E12496EC15C14F /* PBXContainerItemProxy */ = {
+		06CBD1DEAF41C9E928D1B45421BB5B4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 60C2016C18D17A95F68947903C14379A;
-			remoteInfo = CubeTabBar;
+			remoteGlobalIDString = B8E15844329E42BB9C8AA2F895EC4F1A;
+			remoteInfo = CubeTheme;
+		};
+		104B8936DDC881B07543ABEE3EB80BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E15844329E42BB9C8AA2F895EC4F1A;
+			remoteInfo = CubeTheme;
 		};
 		4EF2BFD0C00EEBAAE4C3DA911697CEC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,58 +50,83 @@
 			remoteGlobalIDString = 043D9C3C33C8A56F01D97B84BB23033B;
 			remoteInfo = "Pods-CubeTabBar_Example";
 		};
+		868D3A691C5E26B2EEDDD3839FB72F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C2016C18D17A95F68947903C14379A;
+			remoteInfo = CubeTabBar;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1DF22A0C3E8F47BA9EC4DACF48ACFA7E /* CubeTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeTabBar-umbrella.h"; sourceTree = "<group>"; };
-		24F09DAA3F448B73D8475B348CF40634 /* CubeTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CubeTabBar-Info.plist"; sourceTree = "<group>"; };
+		2099749A702E8FB8944A88654924A4D5 /* CubeTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeTheme.release.xcconfig; sourceTree = "<group>"; };
 		2D7DB73E5D18FF5DF48E490CBDA140DE /* Pods-CubeTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubeTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3213F4A718E99570ED4296D014B93424 /* CubeTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeTabBar.release.xcconfig; sourceTree = "<group>"; };
-		3472EF0CEFE441198F1A8AAFAEB00C2E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CubeTabBar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		33DF524F32B0A0089D9532F1D0334B03 /* CubeTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CubeTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		37560EA206F268EB654577E782049502 /* CubeThemeColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeThemeColor.swift; path = CubeTheme/Classes/CubeThemeColor.swift; sourceTree = "<group>"; };
 		391F6895F9093206E9B27A3D8C2AA710 /* Pods-CubeTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		44654A5062CED30243DD0EE3DCA058F9 /* CubeTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeTabBar-prefix.pch"; sourceTree = "<group>"; };
+		4220D95FFDCAB05BE0FB6B6C60349714 /* CubeTheme-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeTheme-prefix.pch"; sourceTree = "<group>"; };
 		461D1BB680D6C107220DAC80C3393DCF /* Pods-CubeTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		529865C5D050691E4C101BB041969CD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		486F195D58D3E4187A32DC511D05870C /* CubeTheme.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CubeTheme.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		49021DDEB697F2EF60DF45988C1BBF1C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		49A6ED487AE04F93659CACFCDC25CB79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		56FA5465891FECCF84CE7245D507D453 /* Pods-CubeTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubeTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5B5BC1A60838DDBE5B56573C9D93ADE4 /* Pods-CubeTabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubeTabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5D3BC7E38FB4CEC9223A539EFFD7C988 /* Pods-CubeTabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CubeTabBar_Example.modulemap"; sourceTree = "<group>"; };
+		74816ABC25C29DAC1D362D176E026EA6 /* CubeTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeTheme.swift; path = CubeTheme/Classes/CubeTheme.swift; sourceTree = "<group>"; };
 		7ACCBB42DC3CE635336AA41BAC72EB2E /* Pods-CubeTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubeTabBar_Example-dummy.m"; sourceTree = "<group>"; };
-		93E2A1C079CA247AD0C6C0FC00033480 /* CubeTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CubeTabBar.framework; path = CubeTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D2561F6E87E72DDBA23ECDE86CFF030 /* CubeTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeTabBar-umbrella.h"; sourceTree = "<group>"; };
+		7F0873590657C8927867AD02623937CE /* CubeTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeTabBar.debug.xcconfig; sourceTree = "<group>"; };
+		83CB79B1C480DAE16D3EA5AB496571C3 /* CubeTheme.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CubeTheme.modulemap; sourceTree = "<group>"; };
+		8402DB74249A04E500C619E2 /* CubeTabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CubeTabBarButton.swift; path = CubeTabBar/Classes/CubeTabBarButton.swift; sourceTree = "<group>"; };
+		84A360F5B2B66CFA639B6C5A128E2DB7 /* CubeTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeTabBar.release.xcconfig; sourceTree = "<group>"; };
+		8F5C791ADDC94A7EB67DBEF68CF620BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		90839E2DB73F508A0469FE5A9B691A5D /* CubeThemeSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeThemeSize.swift; path = CubeTheme/Classes/CubeThemeSize.swift; sourceTree = "<group>"; };
+		93E2A1C079CA247AD0C6C0FC00033480 /* CubeTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CubeTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FD9F0C393232D98BBFA2BE97438A45 /* CubeTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CubeTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CB1A1DE8239111715EA0D1F18B504A /* CubeTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CubeTabBar.modulemap; sourceTree = "<group>"; };
+		9C1748AE3CB45A660A46F4EB3188B0E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9CE9E21829D5BD4F586574C50B656FC6 /* Pods-CubeTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubeTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D353072F95F65948F3C8C7D2992221C /* Pods_CubeTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CubeTabBar_Example.framework; path = "Pods-CubeTabBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E4595BFB2113BE11E3C1F10894B43C2 /* CubeTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CubeTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A7C82834D6E22D37EC47BFF0FCAE75A4 /* Pods_CubeTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CubeTabBar_Tests.framework; path = "Pods-CubeTabBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D353072F95F65948F3C8C7D2992221C /* Pods_CubeTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeTabBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE06FB785D988DFDB71E67310A0E75E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A2EAC7C833F709AFE95C675A7B77FD45 /* CubeTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CubeTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C82834D6E22D37EC47BFF0FCAE75A4 /* Pods_CubeTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CubeTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B535019CED66ACE4F119ADFBF9D65FF0 /* CubeTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeTabBar-prefix.pch"; sourceTree = "<group>"; };
+		BA34C0787BA09A655C37664383964CC8 /* CubeTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeTheme.debug.xcconfig; sourceTree = "<group>"; };
 		BE51E68C2FB0D60279284D3553450318 /* Pods-CubeTabBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeTabBar_Tests-Info.plist"; sourceTree = "<group>"; };
 		CAD674DE9C61020E3CC56CEAB3CA47A6 /* Pods-CubeTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubeTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D0B361522E1D9CC0E88DBBED21A2B7B3 /* CubeTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeTabBar.debug.xcconfig; sourceTree = "<group>"; };
+		CC1A568F3E2F99C342AEB93090E5FC92 /* CubeTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CubeTabBar-Info.plist"; sourceTree = "<group>"; };
+		CED8A794D4370B0334FD117DFCBB826E /* CubeTheme-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CubeTheme-dummy.m"; sourceTree = "<group>"; };
+		D0F63772530055EFF32BF7BA9BA48C9B /* CubeTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeTabBarController.swift; path = CubeTabBar/Classes/CubeTabBarController.swift; sourceTree = "<group>"; };
+		D5D61EB0C0C3D1A7A847D722FABF600B /* CubeTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubeTabBar.swift; path = CubeTabBar/Classes/CubeTabBar.swift; sourceTree = "<group>"; };
+		D8C3322D3026F8E14C4B06B8A3247C88 /* CubeTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CubeTabBar-dummy.m"; sourceTree = "<group>"; };
 		D93BEBFA09D6646F1154472FDFD5F5B5 /* Pods-CubeTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubeTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
 		DA42C70A7426AF703B35C1D2A563BB2A /* Pods-CubeTabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeTabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DAC151FC1956DD80B1BBE61AA5543C24 /* CubeTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CubeTabBar-dummy.m"; sourceTree = "<group>"; };
-		E20E8CE350E0D18BEF2BEA217B6FB25A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		E243EC087DCA74289CD68C6C49D7507D /* CubeTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CubeTabBar.modulemap; sourceTree = "<group>"; };
 		E976B101C87FADCF6B464C8A105A25FB /* Pods-CubeTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CubeTabBar_Tests.modulemap"; sourceTree = "<group>"; };
+		E9AA4EC9C82D8B1C168751837415097E /* CubeTheme-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CubeTheme-Info.plist"; sourceTree = "<group>"; };
 		F03C604579D9F4AAA48AF126AD51A66A /* Pods-CubeTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F369E1572D6F68FA7A2253B0955E97FF /* Pods-CubeTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F38E429879749C64ED77197C6749E1F8 /* Pods-CubeTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FEEB278F8F0D9B18FC5925E3F798132D /* Pods-CubeTabBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeTabBar_Example-Info.plist"; sourceTree = "<group>"; };
+		FFCD296DCFF9ADEFA25B2F8DA92CBAC4 /* CubeTheme-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeTheme-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00C713381EE7EBE2F803A22B8CA0BD92 /* Frameworks */ = {
+		2C99E1399802BD7134046265B32B6D3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE614554FBFF83D0CC02E5D506EABF67 /* Foundation.framework in Frameworks */,
+				8D2C72701F72540334E34762CC5BF2B1 /* CubeTheme.framework in Frameworks */,
+				97C28818AB2E53F7433EDAE7DAE0EE85 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16DA71D778614EC2E3B7F63A5CC07DE6 /* Frameworks */ = {
+		4D1543E27755F3DCD28B44775AD0E5DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78A875DB6A22EDB06E351F7C8BC4F5A8 /* Foundation.framework in Frameworks */,
+				26B00C8F255ADA156CE0BC8F33068897 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,38 +138,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B181EAC80029FF4C71D9A2535AC374D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BB15ED07061298422A70913B3E7606E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A7CEA929DAECD17DCDCCE3E51A2EBE6 /* Support Files */ = {
+		2A0F180B00A8BECCC9DF383321A5959F /* CubeTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				E243EC087DCA74289CD68C6C49D7507D /* CubeTabBar.modulemap */,
-				DAC151FC1956DD80B1BBE61AA5543C24 /* CubeTabBar-dummy.m */,
-				24F09DAA3F448B73D8475B348CF40634 /* CubeTabBar-Info.plist */,
-				44654A5062CED30243DD0EE3DCA058F9 /* CubeTabBar-prefix.pch */,
-				1DF22A0C3E8F47BA9EC4DACF48ACFA7E /* CubeTabBar-umbrella.h */,
-				D0B361522E1D9CC0E88DBBED21A2B7B3 /* CubeTabBar.debug.xcconfig */,
-				3213F4A718E99570ED4296D014B93424 /* CubeTabBar.release.xcconfig */,
+				D5D61EB0C0C3D1A7A847D722FABF600B /* CubeTabBar.swift */,
+				8402DB74249A04E500C619E2 /* CubeTabBarButton.swift */,
+				D0F63772530055EFF32BF7BA9BA48C9B /* CubeTabBarController.swift */,
+				E3C6300215DCB3397AEA02E7FE21E292 /* Pod */,
+				767EF996366CB80E76D18B60AD3E6037 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CubeTabBar";
+			name = CubeTabBar;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		3781C8DDD73585474466842FD0401C7C /* Pod */ = {
+		559A5D1E45A63EF3738E6E472AFCDCCA /* CubeTheme */ = {
 			isa = PBXGroup;
 			children = (
-				9E4595BFB2113BE11E3C1F10894B43C2 /* CubeTabBar.podspec */,
-				E20E8CE350E0D18BEF2BEA217B6FB25A /* LICENSE */,
-				529865C5D050691E4C101BB041969CD7 /* README.md */,
+				74816ABC25C29DAC1D362D176E026EA6 /* CubeTheme.swift */,
+				37560EA206F268EB654577E782049502 /* CubeThemeColor.swift */,
+				90839E2DB73F508A0469FE5A9B691A5D /* CubeThemeSize.swift */,
+				AE04F8C61E65739C16E5DFC9F7F2B59B /* Pod */,
+				D97EC3A94BB1FB73E77648CFF53CC77D /* Support Files */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
+			name = CubeTheme;
+			path = /Users/gg19910817/Cube/CubeTheme;
+			sourceTree = "<absolute>";
 		};
-		5673B7D8E53D2244FA517145150073E4 /* Products */ = {
+		58886C0E8EC9C03CCD0C5680F0C11C62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				93E2A1C079CA247AD0C6C0FC00033480 /* CubeTabBar.framework */,
+				A2EAC7C833F709AFE95C675A7B77FD45 /* CubeTheme.framework */,
 				9D353072F95F65948F3C8C7D2992221C /* Pods_CubeTabBar_Example.framework */,
 				A7C82834D6E22D37EC47BFF0FCAE75A4 /* Pods_CubeTabBar_Tests.framework */,
 			);
@@ -142,6 +193,21 @@
 				81716471976027BF74FFD26102BBFF9C /* Pods-CubeTabBar_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		767EF996366CB80E76D18B60AD3E6037 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				96CB1A1DE8239111715EA0D1F18B504A /* CubeTabBar.modulemap */,
+				D8C3322D3026F8E14C4B06B8A3247C88 /* CubeTabBar-dummy.m */,
+				CC1A568F3E2F99C342AEB93090E5FC92 /* CubeTabBar-Info.plist */,
+				B535019CED66ACE4F119ADFBF9D65FF0 /* CubeTabBar-prefix.pch */,
+				7D2561F6E87E72DDBA23ECDE86CFF030 /* CubeTabBar-umbrella.h */,
+				7F0873590657C8927867AD02623937CE /* CubeTabBar.debug.xcconfig */,
+				84A360F5B2B66CFA639B6C5A128E2DB7 /* CubeTabBar.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CubeTabBar";
 			sourceTree = "<group>";
 		};
 		79058DEC7511A1FC3034FE62ACE6A9B1 /* Pods-CubeTabBar_Example */ = {
@@ -177,60 +243,86 @@
 			path = "Target Support Files/Pods-CubeTabBar_Tests";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		AADF180E940710BD32B707673318BF3C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CBC93BED6A54B52A2AE9659AB75BDEC5 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CF6E7192AFBC24B951B9C6877D27BA33 /* CubeTabBar */,
+				2A0F180B00A8BECCC9DF383321A5959F /* CubeTabBar */,
+				559A5D1E45A63EF3738E6E472AFCDCCA /* CubeTheme */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AE04F8C61E65739C16E5DFC9F7F2B59B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				486F195D58D3E4187A32DC511D05870C /* CubeTheme.podspec */,
+				49021DDEB697F2EF60DF45988C1BBF1C /* LICENSE */,
+				8F5C791ADDC94A7EB67DBEF68CF620BD /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B3ADC073A82A39D5C4DC288EF9DFE9DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94FD9F0C393232D98BBFA2BE97438A45 /* CubeTheme.framework */,
+				BA49AA40AA7663150E08C3E064D6B714 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA49AA40AA7663150E08C3E064D6B714 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				49A6ED487AE04F93659CACFCDC25CB79 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CBC93BED6A54B52A2AE9659AB75BDEC5 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				5673B7D8E53D2244FA517145150073E4 /* Products */,
+				AADF180E940710BD32B707673318BF3C /* Development Pods */,
+				B3ADC073A82A39D5C4DC288EF9DFE9DB /* Frameworks */,
+				58886C0E8EC9C03CCD0C5680F0C11C62 /* Products */,
 				652937EFDA7D2470F5B6BAFA75E47FC2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		CF6E7192AFBC24B951B9C6877D27BA33 /* CubeTabBar */ = {
+		D97EC3A94BB1FB73E77648CFF53CC77D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3472EF0CEFE441198F1A8AAFAEB00C2E /* ReplaceMe.swift */,
-				3781C8DDD73585474466842FD0401C7C /* Pod */,
-				1A7CEA929DAECD17DCDCCE3E51A2EBE6 /* Support Files */,
+				83CB79B1C480DAE16D3EA5AB496571C3 /* CubeTheme.modulemap */,
+				CED8A794D4370B0334FD117DFCBB826E /* CubeTheme-dummy.m */,
+				E9AA4EC9C82D8B1C168751837415097E /* CubeTheme-Info.plist */,
+				4220D95FFDCAB05BE0FB6B6C60349714 /* CubeTheme-prefix.pch */,
+				FFCD296DCFF9ADEFA25B2F8DA92CBAC4 /* CubeTheme-umbrella.h */,
+				BA34C0787BA09A655C37664383964CC8 /* CubeTheme.debug.xcconfig */,
+				2099749A702E8FB8944A88654924A4D5 /* CubeTheme.release.xcconfig */,
 			);
-			name = CubeTabBar;
-			path = ../..;
+			name = "Support Files";
+			path = "../CubeTabBar/Example/Pods/Target Support Files/CubeTheme";
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E3C6300215DCB3397AEA02E7FE21E292 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				33DF524F32B0A0089D9532F1D0334B03 /* CubeTabBar.podspec */,
+				9C1748AE3CB45A660A46F4EB3188B0E8 /* LICENSE */,
+				9FE06FB785D988DFDB71E67310A0E75E /* README.md */,
 			);
-			name = Frameworks;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5F75557DBCD9744E0449EA245B6337DA /* Headers */ = {
+		1FBF935F5A5B983BA7D88BF54AB2DF95 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C208B2AB503F003E365AA19765059932 /* Pods-CubeTabBar_Example-umbrella.h in Headers */,
+				107DD5BFA1A3E91A00ADCAA5CEAAD6FC /* Pods-CubeTabBar_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,11 +334,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9489806B9E834A296EBB8138FE195F04 /* Headers */ = {
+		CF3F736D2B78989C55F576DB482B94CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9943A93287E4E278472275D8CE717E07 /* CubeTabBar-umbrella.h in Headers */,
+				B70850D2712DA0CDEC39E9A132EA8E1A /* CubeTabBar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E2F4EA615AD215C859FA078C168AF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E6EFCA4CF1A3EDB8264A21432316FB /* CubeTheme-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,17 +355,18 @@
 /* Begin PBXNativeTarget section */
 		043D9C3C33C8A56F01D97B84BB23033B /* Pods-CubeTabBar_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D101021E68881B5C4D48F59D03BC9D6 /* Build configuration list for PBXNativeTarget "Pods-CubeTabBar_Example" */;
+			buildConfigurationList = 0F0896EA2E9867DB923551FD4272E0C8 /* Build configuration list for PBXNativeTarget "Pods-CubeTabBar_Example" */;
 			buildPhases = (
-				5F75557DBCD9744E0449EA245B6337DA /* Headers */,
-				27634C9CEB36261DA2286AFAA3D98371 /* Sources */,
-				16DA71D778614EC2E3B7F63A5CC07DE6 /* Frameworks */,
-				1E3C4A4CC776456BDCE478FE80689A0A /* Resources */,
+				1FBF935F5A5B983BA7D88BF54AB2DF95 /* Headers */,
+				D57B221B0E5B485F2106CCB94F9AD2AA /* Sources */,
+				B181EAC80029FF4C71D9A2535AC374D5 /* Frameworks */,
+				68FA9ECC349FE277919DD98FE8294897 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2AFAC4FD6D34F9D4057F29250F2B1705 /* PBXTargetDependency */,
+				141CCD016F5F3AB63D1C2580618050DB /* PBXTargetDependency */,
+				FA15FF1E5A1F0B4CFD8AF51D5FDFCDD7 /* PBXTargetDependency */,
 			);
 			name = "Pods-CubeTabBar_Example";
 			productName = "Pods-CubeTabBar_Example";
@@ -293,20 +394,39 @@
 		};
 		60C2016C18D17A95F68947903C14379A /* CubeTabBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C24CADA41306ABF0ED77DD5AA0D4AD32 /* Build configuration list for PBXNativeTarget "CubeTabBar" */;
+			buildConfigurationList = 0568AD1679BF0879927F6A706EC82BCE /* Build configuration list for PBXNativeTarget "CubeTabBar" */;
 			buildPhases = (
-				9489806B9E834A296EBB8138FE195F04 /* Headers */,
-				C39710302420A922AC6AF13261944D54 /* Sources */,
-				00C713381EE7EBE2F803A22B8CA0BD92 /* Frameworks */,
-				7776D61BFE5289A7FD944733A9FFCC66 /* Resources */,
+				CF3F736D2B78989C55F576DB482B94CC /* Headers */,
+				A6C5CD38DDCAFC7B092DED46CC5CE48B /* Sources */,
+				2C99E1399802BD7134046265B32B6D3A /* Frameworks */,
+				A54B1FF5FC368656DE24A977FD2BA214 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4CB8103D744FADE0D4AE13677B7DA81 /* PBXTargetDependency */,
+			);
+			name = CubeTabBar;
+			productName = CubeTabBar;
+			productReference = 93E2A1C079CA247AD0C6C0FC00033480 /* CubeTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8E15844329E42BB9C8AA2F895EC4F1A /* CubeTheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C06C2420AF5AB996992D56BF6AFC5E7B /* Build configuration list for PBXNativeTarget "CubeTheme" */;
+			buildPhases = (
+				D9E2F4EA615AD215C859FA078C168AF6 /* Headers */,
+				6B6C1080FFB7893A5FEE245D9FAA810F /* Sources */,
+				4D1543E27755F3DCD28B44775AD0E5DB /* Frameworks */,
+				37A622EA4680D07E4A41FC0BE898752E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CubeTabBar;
-			productName = CubeTabBar;
-			productReference = 93E2A1C079CA247AD0C6C0FC00033480 /* CubeTabBar.framework */;
+			name = CubeTheme;
+			productName = CubeTheme;
+			productReference = A2EAC7C833F709AFE95C675A7B77FD45 /* CubeTheme.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,11 +447,12 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5673B7D8E53D2244FA517145150073E4 /* Products */;
+			productRefGroup = 58886C0E8EC9C03CCD0C5680F0C11C62 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				60C2016C18D17A95F68947903C14379A /* CubeTabBar */,
+				B8E15844329E42BB9C8AA2F895EC4F1A /* CubeTheme */,
 				043D9C3C33C8A56F01D97B84BB23033B /* Pods-CubeTabBar_Example */,
 				3D2F4E6F11B2F64EBA38675A468E5C0D /* Pods-CubeTabBar_Tests */,
 			);
@@ -339,13 +460,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1E3C4A4CC776456BDCE478FE80689A0A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2547DBC02280F07A3219DB1B0A8A18DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,7 +467,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7776D61BFE5289A7FD944733A9FFCC66 /* Resources */ = {
+		37A622EA4680D07E4A41FC0BE898752E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68FA9ECC349FE277919DD98FE8294897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54B1FF5FC368656DE24A977FD2BA214 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +491,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		27634C9CEB36261DA2286AFAA3D98371 /* Sources */ = {
+		6B6C1080FFB7893A5FEE245D9FAA810F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC04DC72182BE576FF80F6ADE0FDDD38 /* Pods-CubeTabBar_Example-dummy.m in Sources */,
+				BDEE63CFD19D94BB44351F08DFC6B411 /* CubeTheme-dummy.m in Sources */,
+				08CF2D405429FD9DB5DDE00DDF862DA7 /* CubeTheme.swift in Sources */,
+				CFBDBAE57A0ECB1270C4BB0D4AA3892F /* CubeThemeColor.swift in Sources */,
+				90D444FFDBEE7907FE9396E3AEB91103 /* CubeThemeSize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C39710302420A922AC6AF13261944D54 /* Sources */ = {
+		A6C5CD38DDCAFC7B092DED46CC5CE48B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B09DD29A11F5503A8AE825489047D5C /* CubeTabBar-dummy.m in Sources */,
-				588ED0366DC4A684284F03EF0DE795CD /* ReplaceMe.swift in Sources */,
+				8402DB75249A04E500C619E2 /* CubeTabBarButton.swift in Sources */,
+				623C2530427CCA806EF254BC95BF47CE /* CubeTabBar-dummy.m in Sources */,
+				8550C807E929C29C81D72C45A90C0FCB /* CubeTabBar.swift in Sources */,
+				1CFC836FAF339ECD8CE3118DEA2CFAAD /* CubeTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,14 +521,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D57B221B0E5B485F2106CCB94F9AD2AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57488FD70B647071A4E94FBB5DEFD2BF /* Pods-CubeTabBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2AFAC4FD6D34F9D4057F29250F2B1705 /* PBXTargetDependency */ = {
+		141CCD016F5F3AB63D1C2580618050DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CubeTabBar;
 			target = 60C2016C18D17A95F68947903C14379A /* CubeTabBar */;
-			targetProxy = 41CEFEE2385A10C502E12496EC15C14F /* PBXContainerItemProxy */;
+			targetProxy = 868D3A691C5E26B2EEDDD3839FB72F1B /* PBXContainerItemProxy */;
 		};
 		6F66DA801ADE28108109FBCBD63748AD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -403,10 +544,22 @@
 			target = 043D9C3C33C8A56F01D97B84BB23033B /* Pods-CubeTabBar_Example */;
 			targetProxy = 4EF2BFD0C00EEBAAE4C3DA911697CEC4 /* PBXContainerItemProxy */;
 		};
+		A4CB8103D744FADE0D4AE13677B7DA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CubeTheme;
+			target = B8E15844329E42BB9C8AA2F895EC4F1A /* CubeTheme */;
+			targetProxy = 104B8936DDC881B07543ABEE3EB80BB5 /* PBXContainerItemProxy */;
+		};
+		FA15FF1E5A1F0B4CFD8AF51D5FDFCDD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CubeTheme;
+			target = B8E15844329E42BB9C8AA2F895EC4F1A /* CubeTheme */;
+			targetProxy = 06CBD1DEAF41C9E928D1B45421BB5B4D /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		632C55508B8A73A7BE7D2360C450508A /* Release */ = {
+		53952B4637F40D02B7AB1773DDE4C207 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F38E429879749C64ED77197C6749E1F8 /* Pods-CubeTabBar_Example.release.xcconfig */;
 			buildSettings = {
@@ -527,14 +680,13 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		B4349DF5CD81D3F6C76390DCC9351F72 /* Debug */ = {
+		B3DBCFCEF4CE06F80DBFA5DCF6B19A85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F03C604579D9F4AAA48AF126AD51A66A /* Pods-CubeTabBar_Example.debug.xcconfig */;
 			buildSettings = {
@@ -631,9 +783,41 @@
 			};
 			name = Debug;
 		};
-		DF12911FE5E1D112F705A19D8994E496 /* Release */ = {
+		C6CC7AD47E439998767C782743F8776A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3213F4A718E99570ED4296D014B93424 /* CubeTabBar.release.xcconfig */;
+			baseConfigurationReference = 2099749A702E8FB8944A88654924A4D5 /* CubeTheme.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CubeTheme/CubeTheme-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CubeTheme/CubeTheme-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CubeTheme/CubeTheme.modulemap";
+				PRODUCT_MODULE_NAME = CubeTheme;
+				PRODUCT_NAME = CubeTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEFE584DE3DB3E84D706E88335587DC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84A360F5B2B66CFA639B6C5A128E2DB7 /* CubeTabBar.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -663,9 +847,40 @@
 			};
 			name = Release;
 		};
-		E861ABFB1BAEC277DB1ED4F7A17E1E84 /* Debug */ = {
+		EC795C88F983ED4D0BCF60BC98BE46C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0B361522E1D9CC0E88DBBED21A2B7B3 /* CubeTabBar.debug.xcconfig */;
+			baseConfigurationReference = BA34C0787BA09A655C37664383964CC8 /* CubeTheme.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CubeTheme/CubeTheme-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CubeTheme/CubeTheme-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CubeTheme/CubeTheme.modulemap";
+				PRODUCT_MODULE_NAME = CubeTheme;
+				PRODUCT_NAME = CubeTheme;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF1CAB4414E7BEA66251E9D9547135F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F0873590657C8927867AD02623937CE /* CubeTabBar.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -730,6 +945,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0568AD1679BF0879927F6A706EC82BCE /* Build configuration list for PBXNativeTarget "CubeTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF1CAB4414E7BEA66251E9D9547135F7 /* Debug */,
+				CEFE584DE3DB3E84D706E88335587DC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F0896EA2E9867DB923551FD4272E0C8 /* Build configuration list for PBXNativeTarget "Pods-CubeTabBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3DBCFCEF4CE06F80DBFA5DCF6B19A85 /* Debug */,
+				53952B4637F40D02B7AB1773DDE4C207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -748,20 +981,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D101021E68881B5C4D48F59D03BC9D6 /* Build configuration list for PBXNativeTarget "Pods-CubeTabBar_Example" */ = {
+		C06C2420AF5AB996992D56BF6AFC5E7B /* Build configuration list for PBXNativeTarget "CubeTheme" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B4349DF5CD81D3F6C76390DCC9351F72 /* Debug */,
-				632C55508B8A73A7BE7D2360C450508A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C24CADA41306ABF0ED77DD5AA0D4AD32 /* Build configuration list for PBXNativeTarget "CubeTabBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E861ABFB1BAEC277DB1ED4F7A17E1E84 /* Debug */,
-				DF12911FE5E1D112F705A19D8994E496 /* Release */,
+				EC795C88F983ED4D0BCF60BC98BE46C0 /* Debug */,
+				C6CC7AD47E439998767C782743F8776A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

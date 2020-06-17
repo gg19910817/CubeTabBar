@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CubeTabBar
 
 class ViewController: UIViewController {
 
@@ -14,7 +15,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    @IBAction func tapAction(_ sender: Any) {
+        let vc = CubeTabBarController()
+        let navi = UINavigationController.init(rootViewController: ViewController())
+        navi.tabBarItem = .init(title: "888", image: nil, tag: 0)
+        vc.viewControllers = [navi,navi,navi]
+        self.present(vc, animated: true, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
