@@ -1,0 +1,22 @@
+{
+  "name": "CubeTabBar",
+  "version": "0.1.0",
+  "summary": "A short description of CubeTabBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/gg19910817/CubeTabBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gg19910817": "gg19910817@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/gg19910817/CubeTabBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CubeTabBar/Classes/**/*"
+}

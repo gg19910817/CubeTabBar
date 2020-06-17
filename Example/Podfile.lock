@@ -1,0 +1,16 @@
+PODS:
+  - CubeTabBar (0.1.0)
+
+DEPENDENCIES:
+  - CubeTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  CubeTabBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CubeTabBar: 25ac7fd5b641314d53cfa8504749e894f8dbecd4
+
+PODFILE CHECKSUM: 7b319543fb23bd048a22f2e10d72270d06b6268d
+
+COCOAPODS: 1.9.3

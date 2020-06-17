@@ -1,0 +1,6 @@
+framework module CubeTabBar {
+  umbrella header "CubeTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_CubeTabBar_Example {
+  umbrella header "Pods-CubeTabBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
