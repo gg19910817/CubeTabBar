@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CubeTabBar_Example' do
+  pod 'CubeTabBar', :path => '../'
+
+  target 'CubeTabBar_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
